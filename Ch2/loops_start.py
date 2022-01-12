@@ -11,12 +11,13 @@ def main():
   #   x = x + 1
 
   # define a for loop
-  for x in range(5, 10):
-    print(x)
+  # for x in range(5, 10):
+  #   print(x)
 
   # use a for loop over a collection
-  
-
+  days=["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+  for d in days:
+    print(d)
   
   # use the break and continue statements
  
