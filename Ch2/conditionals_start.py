@@ -4,11 +4,13 @@
 
 
 def main():
-    x, y = 1000, 100
+    x, y = 100, 100
 
     # conditional flow uses if, elif, else
     if (x < y):
         st = "x is less than y"
+    elif (x == y):
+        st = "x is the same as y"
     else:
         st = "x is greater than y"
     
