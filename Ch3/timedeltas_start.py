@@ -12,9 +12,11 @@ print(timedelta(days=365, hours=5, minutes=1))
 
 
 # print today's date
+now = datetime.now()
+print("today is: " + str(now))
 
 # print today's date one year from now
-
+print("one year from now it will be: " + str(now + timedelta(days=365)))
 
 # create a timedelta that uses more than one argument
 
