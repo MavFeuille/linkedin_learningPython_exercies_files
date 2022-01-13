@@ -2,7 +2,7 @@
 # Example file for formatting time and date output
 #
 
-
+from datetime import datetime
 
 def main():
   # Times and dates can be formatted using a set of predefined string
