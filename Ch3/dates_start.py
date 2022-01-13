@@ -9,7 +9,8 @@ from datetime import datetime
 def main():
   ## DATE OBJECTS
   # Get today's date from the simple today() method from the date class
-  
+  today = date.today()
+  print("Today's date is ", today)
 
   # # print out the date's individual components
  
