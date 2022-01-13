@@ -2,12 +2,13 @@
 # Example file for working with Calendars
 #
 
-# import the calendar module``
-
+# import the calendar module
+import calendar
 
 # create a plain text calendar
-
-
+c = calendar.TextCalendar(calendar.MONDAY)
+st = c.formatmonth(2022, 1, 0, 0)
+print(st)
 
 # create an HTML formatted calendar
 
