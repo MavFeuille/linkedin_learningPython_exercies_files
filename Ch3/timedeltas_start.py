@@ -22,7 +22,9 @@ print("one year from now it will be: " + str(now + timedelta(days=365)))
 print("In 2 days and 3 weeks, it will be " + str(now + timedelta(days=2, weeks=3)))
 
 # calculate the date 1 week ago, formatted as a string
-
+t = datetime.now()  - timedelta(weeks=1)
+s = t.strftime("%A %B %d, %Y")
+print("One week ago it was: " + s)
 
 ### How many days until April Fools' Day?
 
