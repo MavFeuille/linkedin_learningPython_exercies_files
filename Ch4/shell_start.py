@@ -19,7 +19,7 @@ def main():
     # shutil.copystat(src, dst)
     
     # rename the original file
-    os.rename("textfile.txt", "newfile.txt")
+    # os.rename("textfile.txt", "newfile.txt")
     
     # now put things into a ZIP archive
 
