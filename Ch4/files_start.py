@@ -4,10 +4,10 @@
 
 def main():  
   # Open a file for writing and create it if it doesn't exist
-  f = open("textfile.txt", "w+")
+  # f = open("textfile.txt", "w+") #<- which file, and "w+" means write
   
   # Open the file for appending text to the end
-
+  f = open("textfile.txt", "a") #<- which file and "a" means append
 
   # write some lines of data to the file
   for i in range(10):
