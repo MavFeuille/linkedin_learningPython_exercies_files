@@ -11,8 +11,8 @@ def main():
 
   # write some lines of data to the file
   for i in range(10):
-    f.write("This is line " + str(i) +"\r\n")
-  
+    f.write("This is line " + str(i) + "\r\n")
+
   # close the file when done
   f.close()
   
