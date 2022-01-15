@@ -18,11 +18,13 @@ def main():
   # print("Item is a directory: " + str(path.isdir("textfile.txt")))
 
   # Work with file paths
-  print("Item path: " + str(path.realpath("textfile.txt")))
-  print("Item path and name:" + str(path.split(path.realpath("textfile.txt"))))
+  # print("Item path: " + str(path.realpath("textfile.txt")))
+  # print("Item path and name:" + str(path.split(path.realpath("textfile.txt"))))
   
   # Get the modification time
-
+  t = time.ctime(path.getmtime("textfile.txt"))
+  print(t)
+  print(datetime.datetime.fromtimestamp(path.getmtime("textfile.txt")))
   
   # Calculate how long ago the item was modified
 
