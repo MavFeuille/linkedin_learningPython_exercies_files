@@ -1,7 +1,7 @@
 # 
 # Example file for parsing and processing XML
 #
-
+import xml.dom.minidom
 
 def main:
   # use the parse() function to load and parse an XML file
