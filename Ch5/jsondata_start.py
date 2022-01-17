@@ -13,7 +13,8 @@ def printResults(data):
     print(theJSON["metadata"]["title"])
 
   # output the number of events, plus the magnitude and each event name  
-
+  count = theJSON["metadata"]["count"]
+  print(str(count) + "events recorded")
   
   # for each event, print the place where it occurred
 
