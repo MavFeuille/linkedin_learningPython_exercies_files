@@ -18,7 +18,9 @@ def main():
     print(skill.getAttribute("name"))
     
   # create a new XML tag and add it into the document
-
+  newSkill = doc.createElement("skill")
+  newSkill.setAttribute("name", "jQuery")
+  doc.firstChild.appendChild(newSkill)
   
 
 if __name__ == "__main__":
