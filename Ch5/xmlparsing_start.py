@@ -8,7 +8,8 @@ def main():
   doc = xml.dom.minidom.parse("samplexml.xml")
   
   # print out the document node and the name of the first child tag
-
+  print(doc.nodeName)
+  print(doc.firstChild.tagName)
   
   # get a list of XML tags from the document and print each one
 
