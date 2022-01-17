@@ -9,8 +9,9 @@ def printResults(data):
   theJSON = json.loads(data)
   
   # now we can access the contents of the JSON like any other Python object
+  if "title" in theJSON["metadata"]:
+    print(theJSON["metadata"]["title"])
 
-  
   # output the number of events, plus the magnitude and each event name  
 
   
