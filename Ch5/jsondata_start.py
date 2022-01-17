@@ -32,7 +32,11 @@ def main():
   # Open the URL and read the data
   webUrl = urllib.request.urlopen(urlData)
   print ("result code: " + str(webUrl.getcode()))
-  
+  if (webUrl.getcode() == 200):
+    data = webUrl.read()
+    printResults(data)
+  else:
+    print("Received error, cannot parse results")
 
 if __name__ == "__main__":
   main()
