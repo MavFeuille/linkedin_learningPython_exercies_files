@@ -9,6 +9,15 @@ class MyHTMLParser(HTMLParser):
     pos = self.getpos()
     print("\tAt line: ", pos[0], "position", pos[1])
 
+  def handle_starttag(self, tag, attrs):
+
+
+  def handle_endtag(self, tag):
+
+
+  def handle_data(self, data):
+
+    
 def main():
   # instantiate the parser and feed it some HTML
   parser = MyHTMLParser()
